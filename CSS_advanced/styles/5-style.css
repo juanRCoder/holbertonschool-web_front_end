@@ -15,7 +15,7 @@
 }
 html {
         scroll-behavior: smooth;
-	font-size: 62-5%;
+	font-size: 62.5%;
 }
 body {
         color: var(--text-color);
