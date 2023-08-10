@@ -82,7 +82,7 @@ a:active {
 .button {
 	display: var(--button-display);
 	padding: var(--button-padding);
-	border-style: var(--button-border);
+	border: var(--button-border);
 	font-size: var(--button-font-size);
 	color: var(--button-color);
 	text-decoration: var(--button-text-decoration);
@@ -90,7 +90,7 @@ a:active {
 .button:hover {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
-	background: var(--buttn-hover-background);
+	background: var(--button-hover-background);
 }
 .col- {
         float: left;
