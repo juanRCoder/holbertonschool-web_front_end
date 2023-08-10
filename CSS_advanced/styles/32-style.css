@@ -94,9 +94,7 @@ a:active {
         font-size: var(--button-font-size);
         color: var(--button-color);
         text-decoration: var(--button-text-decoration);
-	transition-property: color, background-color;
-	transition-duration: var(--transition-duration);
-	transition-timing-function: var(--transition-cubic-bezier);
+	transition: color var(--transition-duration) var(--transition-cubic-bezier), background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 .button:hover {
         color: var(--button-hover-color);
