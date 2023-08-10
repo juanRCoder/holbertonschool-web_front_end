@@ -36,7 +36,7 @@
         --nav-item-letter-spacing: 0.04rem;
         --nav-item-display: inline-block;
         --nav-item-margin: 0 0 3rem 0;
-        --nav-item-link-hover: var(--color-primary);
+        --nav-item-link-hover: var(--color-white);
         --section-tagline-margin: 0;
         --button-display: inline-block;
         --button-padding:1.5rem 3rem;
@@ -136,6 +136,16 @@ ul.row {
         list-style: none;
         text-align: center;
 }
+.nav .nav-link::before {
+	content = "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: var(--color-white);
+	width: 0;
+	height: 0.02rem;
+
+}
 .nav .nav-item {
         font-family: var(--nav-item-font-family);
         font-weight: var(--nav-item-font-weight);
@@ -149,17 +159,11 @@ ul.row {
 	width: 100%;
 }
 .nav .nav-link {
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: var(--color-white);
-	width: 0;
-	height: 0.02rem;
         display: block;
         padding: 0.5rem 1rem;
 }
 .nav .nav-link:hover {
-        color: var(--color-white);
+        color: var(--nav-item-link-hover);
 }
 .navbar-menu {
         float: right;
