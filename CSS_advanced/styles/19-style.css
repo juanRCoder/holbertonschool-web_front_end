@@ -71,7 +71,7 @@ a:active {
         background-color: var(--color-light-grey);
 }
 ul.row {
-	margin 0;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
@@ -83,7 +83,7 @@ ul.row {
 .col-1-2 {
 	width: 50%;
 }
-.footer-copyrigth {
+.footer-copyright {
 	margin: 0;
 	font size: var(--font-size-small);
 	color: var(--text-color);
