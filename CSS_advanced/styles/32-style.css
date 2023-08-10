@@ -94,12 +94,13 @@ a:active {
         font-size: var(--button-font-size);
         color: var(--button-color);
         text-decoration: var(--button-text-decoration);
-	transition: color var(--transition-duration) var(--transition-cubic-bezier), background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 .button:hover {
         color: var(--button-hover-color);
         text-decoration: var(--button-hover-text-decoration);
-        background-color: var(--button-hover-background);
+        background: var(--button-hover-background);
+	transition-duration: var(--transition-duration); 
+	transition-property: color, background-color; 
 }
 .col- {
         float: left;
