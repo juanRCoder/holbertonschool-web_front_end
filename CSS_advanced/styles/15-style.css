@@ -24,9 +24,9 @@
         --section-title-margin: 0;
         --section-title-color: var(--color-black);
 }
-* {
-	box-sizing: border-box;
-}
+*::before, *::after{
+	    box-sizing: border-box;
+    }
 html {
         scroll-behavior: smooth;
         font-size: 62.5%;
