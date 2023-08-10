@@ -258,14 +258,14 @@ ul.row {
 .card-work .card-image img {
 	height: 30rem;
 	width: 100%;
-	--object-fit: cover;
+	object-fit: cover;
 	vertical-align: bottom;
 }
 .card-work .card-inner {
 	position: absolute;
 	top: -0.1rem;
 	left: -0.1rem;
-	right: -01.rem;
+	right: -0.1rem;
 	z-index: 1;
 }
 .card-work:hover .card-inner {
