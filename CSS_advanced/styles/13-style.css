@@ -37,15 +37,18 @@ h1, h2, h3, h4, h5, h6 {
         font-family: var(--font-family-title);
         font-weight: var(--font-weight-bold);
 }
-a:not(:empty) {
+a:link {
         color: var(--text-color);
         text-decoration: none;
 }
 a:visited {
 	font-style: italic;
 }
+a:active {
+	text-decoration: underline;
+}
 a:hover {
-	color: var(--color-light-grey);
+	background-color: var(--color-light-grey);
 }
 .visually-hidden {
         display: none;
