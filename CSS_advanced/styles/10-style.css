@@ -45,6 +45,9 @@ a {
 .card-category {
         color: var(--color-primary);
 }
+.section-header {
+	text-align: var(--section-header-align);
+}
 .section-tagline {
         color: var(--color-primary);
 	text-align: var(--section-header-align);
