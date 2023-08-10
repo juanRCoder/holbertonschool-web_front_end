@@ -96,6 +96,7 @@ a:active {
         text-decoration: var(--button-text-decoration);
 	transition-property: color, background-color;
 	transition-duration: var(--transition-duration);
+	transition-timing-function: var(--transition-cubic-bezier);
 }
 .button:hover {
         color: var(--button-hover-color);
@@ -148,7 +149,7 @@ ul.row {
         background-color: var(--color-white);
         width: 0;
         height: 0.2rem;
-	transition: var(--transition-duration) var(--transition-cubic-bezier));
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 
 }
 .nav .nav-item {
